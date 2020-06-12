@@ -41,5 +41,25 @@ if is_cold == True:
 if is_cold:
     print("The weather is cold!")
 
+#if you want to check whether a boolean is False, use not operator
+
+#truth value testing
+#if using a non-boolean object as a condition in an if statement in place ofthe boolean expression
+#python will check for truth value and use that to decide whether or not to run the indented code
+#trueth value of an object in Python is considered True unless specified as False in the doc
+
+#built-in objects that are False in Python
+#constants defined to be false: None and False 
+#zero of any numeric type: 0, 0.0, 0j, Decimal(0), Fraction(0, 1)
+
+#errors has the truth value True because it's a non-zero number so error message is printed. 
+errors = 3 
+if errors: 
+    print("You have {} errors to fix!".format(errors))
+else: 
+    print("No errors to fix!")
+
+
+
 
 
